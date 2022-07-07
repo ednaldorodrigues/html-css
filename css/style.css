@@ -10,6 +10,7 @@
 body {
     background: #f5eeee;
     height: 100vh;
+    min-width: 380px;
 }
 
 .cabecalho {
@@ -113,5 +114,32 @@ body {
         justify-content: center;
         align-items: center;
         gap: 20px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .cabecalho h1 {
+        font-size: 1.5rem;
+    }
+
+    .menu a {
+        font-size: 0.7rem;
+    }
+
+    main h3 {
+        font-size: 1rem;
+    }
+
+    main p {
+       font-size: 0.9rem;
+    }
+
+    .noticia a {
+        font-size: 0.9rem;
+    }
+
+    .rodape p {
+        font-size: 0.8rem;
     }
 }
